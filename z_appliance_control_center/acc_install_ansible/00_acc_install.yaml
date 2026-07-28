@@ -16,6 +16,9 @@
 # *|   - Tested with ACC 1.2.13                                             |
 # *|   - Added network configuration for ACC LPAR                           |
 # *|   - Added IFLs/GPs configuration for ACC LPAR                          |
+# *| [07.28.2026]                                                           |
+# *|   - Tested with ACC 1.2.15                                             |
+# *|   - Setting host name of the ACC LPAR                                  |
 # *+------------------------------------------------------------------------+
 
 # Important: Before running the 00_acc_install.yaml script, kindly review the README file located in
@@ -63,6 +66,7 @@
     STORAGE: "{{ STORAGE }}"
     IFLS: "{{ IFLS }}"
     GPS: "{{ GPS }}"
+    LPAR_HOSTNAME: "{{ LPAR_HOSTNAME }}"
 
   pre_tasks:
     - name: Reminder - Export credentials (HMC connected)
