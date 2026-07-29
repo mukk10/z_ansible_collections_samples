@@ -57,7 +57,7 @@
     LOCAL_SSH_PORT: 9989
     VERIFY_CERT: false
     GATEWAY_USER: "fpc-gw"
-    HTTPS_PORT: 443
+    HTTPS_PORT: "443"
     SSH_PORT: 23
     D_PORT: 0
     IS_PRIVATE: false
