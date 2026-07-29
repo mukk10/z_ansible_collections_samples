@@ -193,7 +193,7 @@ the ACC.
 - Check the credential validity and expiry time using the `/api/about` endpoint, which returns:
   - `hmc_credential_validity_days`: Number of days remaining until credentials expire
   - `hmc_credential_clears_at`: Timestamp when credentials will be cleared
-- Use the playbooks `07_insert_hmc_creds.yaml` the `other_usecases_ansible` directory to manage HMC credentials with expiry
+- Use the playbooks `07_insert_hmc_creds.yaml` in the `other_usecases_ansible` directory to manage HMC credentials with expiry
 
 If no expiry is set, the default behavior of clearing credentials every 24 hours remains unchanged.
 
